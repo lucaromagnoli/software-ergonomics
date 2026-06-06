@@ -40,9 +40,9 @@ None of this requires bad intent. Each prompt, tip, rating request, and upsell i
 
 No — and the reason why is the heart of the matter.
 
-Do Not Disturb, Focus modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work — but only bluntly.
+*Do Not Disturb*, *Focus* modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work — but only bluntly.
 
-**Blunt, because they suppress by channel, not by consequence.** To Do Not Disturb, an emergency call and a promotional blast are the same kind of object — a notification — and silencing one means risking the other. The workarounds (allowed contacts, repeated-call exceptions) are approximations the user must configure in advance, guessing who might need to reach them in a crisis. This has a perverse result: a genuine emergency is exactly when you *cannot* afford Do Not Disturb, because staying reachable is part of the task — and exactly when you most need everything else to be quiet. The one control we have couples calm to unreachability, when the situations that matter most demand both calm *and* reachability at once.
+**Blunt, because they suppress by channel, not by consequence.** To *Do Not Disturb*, an emergency call and a promotional blast are the same kind of object — a notification — and silencing one means risking the other. The workarounds (allowed contacts, repeated-call exceptions) are approximations the user must configure in advance, guessing who might need to reach them in a crisis. This has a perverse result: a genuine emergency is exactly when you *cannot* afford *Do Not Disturb*, because staying reachable is part of the task — and exactly when you most need everything else to be quiet. The one control we have couples calm to unreachability, when the situations that matter most demand both calm *and* reachability at once.
 
 And blunt in a second way: a large share of the interruptions that matter never travel through the notification channel at all. They are **inherent to the application itself**: the modal that opens on launch, the rating request that appears mid-task, the feature tour laid over the screen you came for, the upsell placed between you and the confirm button. These fire *when you open the app to do something* — which is exactly the moment notification controls cannot help, because you are actively using the phone. There is no setting for them. There has never been a setting for them.
 
@@ -106,7 +106,7 @@ Better is concrete and largely achievable with what we already know. Some workin
 
 A system-wide, user-activated mode for moments of urgency, stress, or high cognitive load. When enabled, the operating system and participating applications suppress everything non-essential — reminders, tips, review requests, upsells, engagement prompts, feature announcements — while preserving the communications and actions the user needs to complete their task.
 
-Do Not Disturb protects you from other people. Not Now Mode protects you from the software itself.
+*Do Not Disturb* protects you from other people. Not Now Mode protects you from the software itself.
 
 It is deliberately modest: no inference, no machine-learned guessing about your mental state. You declare "I am dealing with something"; the system and its applications respond by getting out of the way.
 

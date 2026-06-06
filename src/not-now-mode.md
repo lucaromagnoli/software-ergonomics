@@ -11,7 +11,7 @@ permalink: not-now-mode.html
 
 <p class="lede">Not Now Mode is a user-activated mode for moments of urgency, stress, or high cognitive load. When enabled, the operating system and participating applications suppress non-essential interruptions — reminders, tips, educational messages, upsells, review requests, engagement-driven prompts — while preserving the communications and actions required to complete the user's task.</p>
 
-Do Not Disturb protects you from other people. Not Now Mode protects you from the software itself.
+*Do Not Disturb* protects you from other people. Not Now Mode protects you from the software itself.
 
 ## Where this came from
 
@@ -31,7 +31,7 @@ Everyone has a version of this story. The mode is named after the only thing I w
 
 Interruptions reach a user through three routes, and only two of them have controls today:
 
-1. **Notifications from people** — calls, messages. Fully controllable: Do Not Disturb and Focus modes exist precisely for these.
+1. **Notifications from people** — calls, messages. Fully controllable: *Do Not Disturb* and *Focus* modes exist precisely for these.
 2. **Push notifications from apps** — partially controllable, per app and per channel, at the cost of ongoing configuration work.
 3. **Interruptions inherent to the application itself** — the onboarding tour, the launch-time modal, the rating prompt, the subscription offer, the "did you know?" tooltip, the badge engineered to be clicked. **No control exists for these.** They don't travel through the notification channel, so notification tools cannot reach them; they fire on app launch or screen entry, so they arrive precisely while you are using the phone.
 
@@ -45,7 +45,7 @@ The user knows when they are under load. The software does not, and should not t
 
 ## How it would work
 
-**The user activates it.** One toggle, as prominent and as instantly understood as airplane mode. No configuration required to get sensible behavior.
+**The user activates it.** One toggle, as prominent and as instantly understood as *airplane mode*. No configuration required to get sensible behavior.
 
 **The OS handles its own surfaces.** System tips, setup reminders, software-update nags, feature promotions, and other OS-originated non-essentials are deferred while the mode is active.
 
@@ -86,9 +86,9 @@ What these share: the phone is the critical tool, the task has a deadline, and t
 
 The proposal is less novel than it might sound. It extends three patterns that already work:
 
-- **Do Not Disturb and Focus modes** established that interruption is a user-controlled, OS-level concern — but they govern notifications from outside, not behavior from within apps, and they suppress by channel rather than by consequence, coupling calm to unreachability. Not Now Mode inverts the trade: people stay loud, software goes quiet.
+- ***Do Not Disturb* and *Focus* modes** established that interruption is a user-controlled, OS-level concern — but they govern notifications from outside, not behavior from within apps, and they suppress by channel rather than by consequence, coupling calm to unreachability. Not Now Mode inverts the trade: people stay loud, software goes quiet.
 - **`prefers-reduced-motion` and `prefers-color-scheme`** established the contract: the user declares a preference once, the platform exposes it as a queryable signal, and well-behaved software adapts. Not Now Mode is `prefers-reduced-interruption`.
-- **Airplane mode and reader mode** established that users understand and value coarse, instantly-legible modes that trade capability for calm.
+- ***Airplane mode* and *reader mode*** established that users understand and value coarse, instantly-legible modes that trade capability for calm.
 
 Each of these began as an unusual idea and became an expectation. The mechanism — a declared user state that software is expected to respect — is proven. What's missing is the cognitive-load instance of it.
 
