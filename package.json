@@ -1,0 +1,17 @@
+{
+  "name": "software-ergonomics",
+  "version": "0.1.0",
+  "description": "Software Ergonomics — designing software that works with human cognition, not against it.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it-anchor": "^9.2.0"
+  }
+}

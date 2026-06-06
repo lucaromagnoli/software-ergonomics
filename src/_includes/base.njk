@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} — Software Ergonomics</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav aria-label="Site">
+      <a class="wordmark" href="index.html">Software Ergonomics</a>
+      <ul>
+        <li><a href="index.html#what-is-software-ergonomics">What it is</a></li>
+        <li><a href="index.html#why-does-it-matter">Why it matters</a></li>
+        <li><a href="index.html#what-problems-is-it-trying-to-solve">The problems</a></li>
+        <li><a href="index.html#what-might-better-software-look-like">Better software</a></li>
+        <li><a href="not-now-mode.html">Not Now Mode</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Software Ergonomics is an open conversation, not a product, petition, or company.
+    </p>
+    <p class="colophon">
+      This site practices what it proposes: no scripts, no trackers, no cookies, no
+      popups, nothing asking for your attention beyond the text you chose to read.
+    </p>
+  </footer>
+</body>
+</html>

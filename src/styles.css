@@ -1,0 +1,288 @@
+/* Software Ergonomics — a stylesheet that tries to embody the idea:
+   calm, legible, high-contrast, no motion, no surprises. */
+
+:root {
+  --bg: #fbfaf8;
+  --bg-raised: #f2f0ec;
+  --ink: #21201d;
+  --ink-soft: #54524d;
+  --accent: #1f6f5f;
+  --accent-ink: #14584b;
+  --rule: #dcd9d3;
+  --max-width: 42rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191917;
+    --bg-raised: #23231f;
+    --ink: #e8e6e1;
+    --ink-soft: #aaa79f;
+    --accent: #5fb8a3;
+    --accent-ink: #7ccab7;
+    --rule: #383733;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Header ---------- */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus {
+  left: 0;
+  z-index: 10;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-header nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.875rem;
+}
+
+.wordmark {
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.site-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.site-header a:hover,
+.site-header a:focus-visible {
+  color: var(--accent-ink);
+  text-decoration: underline;
+}
+
+/* ---------- Main column ---------- */
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 2.5rem 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin: 2rem 0 0.5rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+p {
+  margin: 0 0 1.1rem;
+}
+
+a {
+  color: var(--accent-ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+  margin: 0 0 1.25rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+li::marker {
+  color: var(--accent);
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0;
+}
+
+/* ---------- Hero ---------- */
+
+.tagline {
+  font-size: 1.25rem;
+  color: var(--accent-ink);
+  font-style: italic;
+  margin-bottom: 1.75rem;
+}
+
+.lede {
+  font-size: 1.1875rem;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--rule);
+}
+
+th {
+  background: var(--bg-raised);
+  font-weight: 600;
+}
+
+/* ---------- Proposal callout ---------- */
+
+.proposal {
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin: 3rem 0;
+}
+
+.proposal h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.button {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: var(--accent-ink);
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .button {
+    color: #14211d;
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    color: #14211d;
+  }
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+
+.site-footer p {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.5rem 1.25rem;
+}
+
+.site-footer p:first-child {
+  padding-top: 1.5rem;
+}
+
+.site-footer p:last-child {
+  padding-bottom: 2rem;
+}
+
+/* No animations anywhere, but be explicit for anyone extending this. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
