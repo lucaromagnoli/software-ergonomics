@@ -40,9 +40,11 @@ None of this requires bad intent. Each prompt, tip, rating request, and upsell i
 
 No — and the reason why is the heart of the matter.
 
-Do Not Disturb, Focus modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work.
+Do Not Disturb, Focus modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work — but only bluntly.
 
-But a large share of the interruptions that matter never travel through that channel. They are **inherent to the application itself**: the modal that opens on launch, the rating request that appears mid-task, the feature tour laid over the screen you came for, the upsell placed between you and the confirm button. These fire *when you open the app to do something* — which is exactly the moment notification controls cannot help, because you are actively using the phone. There is no setting for them. There has never been a setting for them.
+**Blunt, because they suppress by channel, not by consequence.** To Do Not Disturb, an emergency call and a promotional blast are the same kind of object — a notification — and silencing one means risking the other. The workarounds (allowed contacts, repeated-call exceptions) are approximations the user must configure in advance, guessing who might need to reach them in a crisis. This has a perverse result: a genuine emergency is exactly when you *cannot* afford Do Not Disturb, because staying reachable is part of the task — and exactly when you most need everything else to be quiet. The one control we have couples calm to unreachability, when the situations that matter most demand both calm *and* reachability at once.
+
+And blunt in a second way: a large share of the interruptions that matter never travel through the notification channel at all. They are **inherent to the application itself**: the modal that opens on launch, the rating request that appears mid-task, the feature tour laid over the screen you came for, the upsell placed between you and the confirm button. These fire *when you open the app to do something* — which is exactly the moment notification controls cannot help, because you are actively using the phone. There is no setting for them. There has never been a setting for them.
 
 Careful notification curation shares the same blind spot, and adds two limits of its own:
 

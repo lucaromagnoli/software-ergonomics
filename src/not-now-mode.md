@@ -86,7 +86,7 @@ What these share: the phone is the critical tool, the task has a deadline, and t
 
 The proposal is less novel than it might sound. It extends three patterns that already work:
 
-- **Do Not Disturb and Focus modes** established that interruption is a user-controlled, OS-level concern — but they govern notifications from outside, not behavior from within apps.
+- **Do Not Disturb and Focus modes** established that interruption is a user-controlled, OS-level concern — but they govern notifications from outside, not behavior from within apps, and they suppress by channel rather than by consequence, coupling calm to unreachability. Not Now Mode inverts the trade: people stay loud, software goes quiet.
 - **`prefers-reduced-motion` and `prefers-color-scheme`** established the contract: the user declares a preference once, the platform exposes it as a queryable signal, and well-behaved software adapts. Not Now Mode is `prefers-reduced-interruption`.
 - **Airplane mode and reader mode** established that users understand and value coarse, instantly-legible modes that trade capability for calm.
 
