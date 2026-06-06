@@ -40,23 +40,6 @@ None of this requires bad intent. Each prompt, tip, rating request, and upsell i
 
 Stress is where the case is clearest, though — not where the discipline ends. Like physical ergonomics, software ergonomics is about reducing unnecessary strain under *all* conditions; a chair is not ergonomic only when you are injured. [Beyond stress →](beyond-stress.html)
 
-## Doesn't Do Not Disturb already solve this?
-
-No — and the reason why is the heart of the matter.
-
-*Do Not Disturb*, *Focus* modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work — but only bluntly.
-
-**Blunt, because they suppress by channel, not by consequence.** To *Do Not Disturb*, an emergency call and a promotional blast are the same kind of object — a notification — and silencing one means risking the other. The workarounds (allowed contacts, repeated-call exceptions) are approximations the user must configure in advance, guessing who might need to reach them in a crisis. This has a perverse result: a genuine emergency is exactly when you *cannot* afford *Do Not Disturb*, because staying reachable is part of the task — and exactly when you most need everything else to be quiet. The one control we have couples calm to unreachability, when the situations that matter most demand both calm *and* reachability at once.
-
-And blunt in a second way: a large share of the interruptions that matter never travel through the notification channel at all. They are **inherent to the application itself**: the modal that opens on launch, the rating request that appears mid-task, the feature tour laid over the screen you came for, the upsell placed between you and the confirm button. These fire *when you open the app to do something* — which is exactly the moment notification controls cannot help, because you are actively using the phone. There is no setting for them. There has never been a setting for them.
-
-Careful notification curation shares the same blind spot, and adds two limits of its own:
-
-- **It is configuration work.** Per app, per channel, revisited every time an app adds a new notification type. Managing the controls is itself a cognitive task — paid by the user, again.
-- **It is static.** Settings express *never* or *always*. The actual need is situational: this prompt might be welcome on a quiet Sunday and intolerable while rebooking a cancelled flight. "Not now" is not expressible in any current control.
-
-So the problem cannot be configured away with existing tools. The interruptions that cost the most in critical moments live inside the apps, on the task path itself — and addressing them requires treating them as a design concern, not a settings concern.
-
 ## What problems is it trying to solve?
 
 Software ergonomics names a category of failure that currently falls between existing disciplines. Some recurring patterns:
@@ -133,6 +116,23 @@ It is deliberately modest: no inference, no machine-learned guessing about your 
 <p><a class="button" href="not-now-mode.html">Read the full proposal →</a></p>
 
 </section>
+
+## Doesn't Do Not Disturb already solve this?
+
+No — and the reason why is the heart of the matter.
+
+*Do Not Disturb*, *Focus* modes, and notification settings all govern the **notification channel**: things pushed at you from outside while your attention is elsewhere. They were designed to protect you from the outside world, and within that scope they work — but only bluntly.
+
+**Blunt, because they suppress by channel, not by consequence.** To *Do Not Disturb*, an emergency call and a promotional blast are the same kind of object — a notification — and silencing one means risking the other. The workarounds (allowed contacts, repeated-call exceptions) are approximations the user must configure in advance, guessing who might need to reach them in a crisis. This has a perverse result: a genuine emergency is exactly when you *cannot* afford *Do Not Disturb*, because staying reachable is part of the task — and exactly when you most need everything else to be quiet. The one control we have couples calm to unreachability, when the situations that matter most demand both calm *and* reachability at once.
+
+And blunt in a second way: a large share of the interruptions that matter never travel through the notification channel at all. They are **inherent to the application itself**: the modal that opens on launch, the rating request that appears mid-task, the feature tour laid over the screen you came for, the upsell placed between you and the confirm button. These fire *when you open the app to do something* — which is exactly the moment notification controls cannot help, because you are actively using the phone. There is no setting for them. There has never been a setting for them.
+
+Careful notification curation shares the same blind spot, and adds two limits of its own:
+
+- **It is configuration work.** Per app, per channel, revisited every time an app adds a new notification type. Managing the controls is itself a cognitive task — paid by the user, again.
+- **It is static.** Settings express *never* or *always*. The actual need is situational: this prompt might be welcome on a quiet Sunday and intolerable while rebooking a cancelled flight. "Not now" is not expressible in any current control.
+
+So the problem cannot be configured away with existing tools. The interruptions that cost the most in critical moments live inside the apps, on the task path itself — and addressing them requires treating them as a design concern, not a settings concern.
 
 ## Start the conversation
 
