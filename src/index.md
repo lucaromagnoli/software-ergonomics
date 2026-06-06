@@ -30,7 +30,9 @@ A discipline is also defined by what it is *not*: software ergonomics is respons
 
 ## Why does it matter?
 
-Because the phone stopped being an entertainment device and became **critical infrastructure**. The same pocket computer used for casual browsing is now the instrument for payments and banking, boarding passes and train tickets, turn-by-turn navigation in unfamiliar cities, two-factor authentication, medical information, and emergency coordination. Real-world tasks with real-world consequences run through interfaces designed, in large part, around engagement.
+Because software stopped mediating only work and entertainment and started mediating **life**. Consequential real-world tasks — moving money, proving identity, navigating, coordinating care, operating vehicles — now run through software on every surface: phones, desktops, web apps, cars, kiosks, hospital systems, the tools people use under deadline at work.
+
+The smartphone is the sharpest example, not the whole story. The same pocket computer used for casual browsing is now the instrument for payments and banking, boarding passes and train tickets, turn-by-turn navigation in unfamiliar cities, two-factor authentication, medical information, and emergency coordination — critical infrastructure that happens to share a screen with entertainment, running interfaces designed, in large part, around engagement. But the same pattern appears wherever software meets a consequential task: the airline kiosk during a disruption, the in-car screen at a junction, the claims portal after the accident it exists for.
 
 This creates a mismatch. The moments when software matters most — transferring money urgently, rebooking a cancelled flight, finding a place to stay tonight — are exactly the moments when the user has the least cognitive capacity to spare. Stress narrows attention. Urgency degrades working memory. Fatigue erodes impulse control and error-checking. A design that is merely mildly annoying to a relaxed user can be genuinely failure-inducing to a stressed one.
 
