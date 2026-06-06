@@ -38,6 +38,8 @@ Meanwhile, most software is evaluated under the opposite conditions: a focused u
 
 None of this requires bad intent. Each prompt, tip, rating request, and upsell is locally reasonable and individually small. The problem is aggregate and systemic: dozens of teams, each optimizing its own surface, sharing a single user's attention budget that none of them can see.
 
+Stress is where the case is clearest, though — not where the discipline ends. Like physical ergonomics, software ergonomics is about reducing unnecessary strain under *all* conditions; a chair is not ergonomic only when you are injured. [Beyond stress →](beyond-stress.html)
+
 ## Doesn't Do Not Disturb already solve this?
 
 No — and the reason why is the heart of the matter.
