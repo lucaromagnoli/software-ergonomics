@@ -100,6 +100,22 @@ Better is concrete and largely achievable with what we already know. Some workin
 - **Treat security, accessibility, usability, and cognitive load as one system.** They are complementary, not competing: designs that reduce confusion reduce error, and reducing error is what security and accessibility are for. The password's collapse, above, is what ignoring this looks like; the passkey is what honoring it looks like.
 - **Let the user declare their state.** Software cannot reliably infer stress — but it can offer an honest way for users to say "not now." Which brings us to a concrete proposal.
 
+## Should critical-use software be held to a higher bar?
+
+One implication of the critical-infrastructure argument deserves to be stated — carefully, and as a question rather than a demand.
+
+Every other engineering field scales scrutiny to consequence. Software that flies aircraft or runs an infusion pump passes certification a game never faces. App platforms already apply a version of the same logic: financial, health, and children's apps face additional review requirements today, and accessibility law in several jurisdictions applies specifically to banking and public services. The principle — higher stakes, stricter checks — is not new. What's missing is its application to cognitive load.
+
+If an app is the instrument for moving money, boarding a flight, or coordinating in an emergency, it is critical-use software in any meaningful sense — and its ergonomic properties are as consequential as its privacy or accessibility properties. Does it interrupt mid-task? Does its critical path survive a stressed user on a foreign network at 8% battery? These are testable questions, and nothing currently requires anyone to ask them.
+
+Three refinements keep this idea honest:
+
+- **The unit of classification should be the flow, not the app.** The same application is leisure when browsing and critical when rebooking a cancelled flight at midnight. App-level labels invite boundary disputes; designated *critical flows* — payments, booking changes, authentication, emergency features — match how software is actually built and used.
+- **The mechanism already exists.** Platforms review apps today for privacy, safety, and notification abuse. Extending review to ergonomic properties of critical flows — no software-initiated interruptions on the task path, legible state, stressed-path performance — is an increment to an existing practice, not a new regime.
+- **The bar must be ergonomic, not bureaucratic.** Certification has known failure modes: compliance costs that entrench incumbents, checklists that ossify. What's proposed for discussion is a small set of testable properties, not paperwork.
+
+Framed this way, it is less a policy proposal than a question to the platforms: you already hold apps to category-specific standards for privacy, safety, and accessibility. Is cognitive load on a payment flow any less reviewable?
+
 <section class="proposal" aria-labelledby="a-proposal-not-now-mode">
 
 ## A proposal: Not Now Mode
