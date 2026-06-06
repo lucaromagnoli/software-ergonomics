@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Designing software that works with human cognition, not against it
-description: "Software Ergonomics is the practice of designing software around human cognitive limits — especially under stress, urgency, fatigue, and high cognitive load."
+description: "Software Ergonomics is the practice of designing software around the limits of human attention, memory, and judgment — in every interaction, and above all when those resources are scarce."
 permalink: index.html
 ---
 
@@ -9,7 +9,9 @@ permalink: index.html
 
 <p class="tagline">Designing software that works with human cognition, not against it.</p>
 
-<p class="lede">Physical ergonomics asks how tools fit the human body — its reach, its strength, its limits. Software ergonomics asks the same question of the mind: how well does software fit human attention, memory, and judgment, especially in the moments when those resources are scarcest?</p>
+<p class="lede">Physical ergonomics asks how tools fit the human body — its reach, its strength, its limits. Software ergonomics asks the same question of the mind: how well does software fit human attention, memory, judgment, and cognitive capacity.</p>
+
+These considerations apply to every interaction, and become particularly important when those resources are scarce — during periods of stress, urgency, fatigue, distraction, or high cognitive load.
 
 This site is the start of a conversation, not a campaign. It is addressed to the people who make software — engineers, designers, product managers, researchers, accessibility advocates, and platform providers — about a constraint we routinely underweight: the cognitive cost of using what we build.
 
