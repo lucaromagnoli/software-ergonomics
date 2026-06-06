@@ -26,6 +26,8 @@ Software ergonomics applies that insight to the interfaces we now use to run our
 - **Interruption has a real cost.** Task-switching research consistently shows that recovering from an interruption takes far longer than the interruption itself. Costs that are invisible in a usability lab compound in real life.
 - **The user's goal is the unit of design.** Not the session, not the funnel, not the feature — the task the person is actually trying to complete.
 
+A discipline is also defined by what it is *not*: software ergonomics is responsible for the cognitive demands software imposes, not for human behavior itself. [Where the discipline begins and ends →](scope.html)
+
 ## Why does it matter?
 
 Because the phone stopped being an entertainment device and became **critical infrastructure**. The same pocket computer used for casual browsing is now the instrument for payments and banking, boarding passes and train tickets, turn-by-turn navigation in unfamiliar cities, two-factor authentication, medical information, and emergency coordination. Real-world tasks with real-world consequences run through interfaces designed, in large part, around engagement.
